@@ -36,6 +36,7 @@ The latter allows tests to be executed on different operating systems. This is a
 |script                 |map fixture            |
 |set value              |headless   |for|args[0]|
 |set value              |disable-gpu|for|args[1]|
+|set value              |no-sandbox |for|args[2]|
 |$chromeHeadlessProfile=|copy map               |
 *!
 
